@@ -45,7 +45,7 @@ Console.WriteLine(c);
 c = 0;
 //증가 연산
 //++c; //피연산자를 1 증가시키고 해당 피연산자를 그대로 반환.  c = c + 1;
-Console.WriteLine(++c); //전위 연산
+Console.WriteLine(++c); //전위 연산        //왠만하면 안씀
 //c++; //임시 변수를 만들고 피연산자 값을 기억한다음 피연산자 값을 1 증가시키고 임시변수값을 반환.
 Console.WriteLine(c++); //후위 연산 
 Console.WriteLine(c);
@@ -85,11 +85,130 @@ Console.WriteLine(a <= b);
 //==============================================================
 
 c = 20;
-c += b; // c = c + b'
+c += b; // c = c + b;
 c -= b;
 c *= b;
 c /= b;
 c %= b;
+
+// 논리 연산자
+// 논리형 피연산자들을 대상으로 연산을 수행
+// or, and, xor, not
+//==================================================
+
+Console.WriteLine("===========논리연산========");
+bool A = true;
+bool B = false;
+
+//or
+// A와 B둘중 하나라도  true 이면 true 반환, 나머지 경우 false 반환
+Console.WriteLine(A | B);
+
+
+//and
+//A 와 B둘다 true 이면 true반환 , 나머지 경우 flase 반환
+Console.WriteLine(A & B);
+
+// xor
+// A와 B 둘중 하나만 true 이면 true 반환, 나머지 경우  flase 반환
+Console.WriteLine(A ^ B);
+
+
+// not
+// 피연산자가 true면 flase, flase 면 true 반환
+Console.WriteLine(!A);
+
+// 조건부 논리연산자
+//conditional or . conditional and
+//==============================
+
+//conditional or
+// A가 true 일 경우 B르 ㄹ읽지 않고 true 반환
+Console.WriteLine(A || B);
+
+//conditioanl and
+// A가 false 일 경우 B를 읽지 않고 false 반환
+Console.WriteLine(A && B);
+
+// 비트 연산자
+// 정수형에 대해서만 연산을 수행함
+//==================================================
+
+
+// or
+Console.WriteLine(a | b);
+
+//a =14 ==2^3 + 2^2 + 2^1==...00001110
+//b = 6 ==      2^2+  2^1==...00000110
+// reasult               ==...00001110  =14
+
+//and
+Console.WriteLine(a & b);
+//a =14 ==2^3 + 2^2 + 2^1==...00001110
+//b = 6 ==      2^2+  2^1==...00000110
+// reasult               ==...00000110  =6
+
+
+
+//xor
+Console.WriteLine(a ^b);
+//a =14 ==2^3 + 2^2 + 2^1==...00001110
+//b = 6 ==      2^2+  2^1==...00000110
+// reasult               ==...00001000 ==8
+
+
+
+
+//not
+Console.WriteLine(~a);
+//a =14 ==2^3 + 2^2 + 2^1==00000000 0000000 000000 00001110
+// reasult               ==11111111 1111111 111111 11110001 
+// 2의 보수              ==11111111 1111111 111111 11110010  == -14
+// 2의 보수의 2의 보수   ==00000000 0000000 000000 00001110
+
+// 2의 보수 : 이진법에서 모든 자릿수를 반전하고 + 1 
+Console.WriteLine(a);
+Console.WriteLine(-a);  // -a == ~a + 1
+
+// shift - left
+Console.WriteLine(a << 1); // 1칸
+//a =14 ==2^3 + 2^2 + 2^1==00000000 0000000 000000 00001110
+// reasult               ==00000000 0000000 000000 00011100 ==28
+
+
+// shift - right
+Console.WriteLine(a >> 2);  // 2칸
+//a =14 ==2^3 + 2^2 + 2^1==00000000 0000000 000000 00001110
+// reasult               ==00000000 0000000 000000 00000011 ==3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
