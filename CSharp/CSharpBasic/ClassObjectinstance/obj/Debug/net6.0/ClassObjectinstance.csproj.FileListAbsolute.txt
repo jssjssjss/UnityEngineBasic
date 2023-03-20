@@ -1,0 +1,5 @@
+C:\Users\User\Documents\GitHub\UnityEngineBasic\CSharp\CSharpBasic\ClassObjectinstance\obj\Debug\net6.0\ClassObjectinstance.csproj.AssemblyReference.cache
+C:\Users\User\Documents\GitHub\UnityEngineBasic\CSharp\CSharpBasic\ClassObjectinstance\obj\Debug\net6.0\ClassObjectinstance.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\GitHub\UnityEngineBasic\CSharp\CSharpBasic\ClassObjectinstance\obj\Debug\net6.0\ClassObjectinstance.AssemblyInfoInputs.cache
+C:\Users\User\Documents\GitHub\UnityEngineBasic\CSharp\CSharpBasic\ClassObjectinstance\obj\Debug\net6.0\ClassObjectinstance.AssemblyInfo.cs
+C:\Users\User\Documents\GitHub\UnityEngineBasic\CSharp\CSharpBasic\ClassObjectinstance\obj\Debug\net6.0\ClassObjectinstance.csproj.CoreCompileInputs.cache

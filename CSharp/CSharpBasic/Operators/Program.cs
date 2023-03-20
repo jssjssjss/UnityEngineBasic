@@ -129,6 +129,8 @@ Console.WriteLine(A || B);
 //conditioanl and
 // A가 false 일 경우 B를 읽지 않고 false 반환
 Console.WriteLine(A && B);
+A |= B; // A= A | B   코드 가속성 적게할려고 쓰인다 그렇게 많이는 안쓰인다.
+
 
 // 비트 연산자
 // 정수형에 대해서만 연산을 수행함
