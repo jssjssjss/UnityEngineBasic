@@ -25,6 +25,8 @@ namespace Structure
 
     // 
 
+
+    // 3D 형의 게임엔진은 float 을 많이쓴다.
     struct Vector3
     {
         public float x;

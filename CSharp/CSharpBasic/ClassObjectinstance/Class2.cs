@@ -7,7 +7,9 @@ using System.Threading.Tasks;
 using ClassObjectinstance;
 
 
-//GG g1 = new GG();
+
+
+GG g1 = new GG();
 GG g2 = new GG();
 GG g3 = new GG();
 

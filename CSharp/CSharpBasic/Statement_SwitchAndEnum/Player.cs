@@ -4,13 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Structure
+namespace Statement_SwitchAndEnum
 {
-    internal class Wizard
+    public class Player
     {
-        public string Name;
-        public Stats Stats;
-
+        public int Layer;
 
     }
 }

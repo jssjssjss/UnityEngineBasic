@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Structure
+namespace Statement_SwitchAndEnum
 {
-    internal class Wizard
+    public class Meteor
     {
-        public string Name;
-        public Stats Stats;
-
-
+        public void OnCollision()
+        { 
+        
+        }
     }
 }

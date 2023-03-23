@@ -4,6 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
+
+
+
 namespace ClassObjectinstance
 {
     internal class GG
@@ -20,7 +24,7 @@ namespace ClassObjectinstance
         public void List()
         {
            
-            Console.WriteLine($"{this.Namee} {this.O}{this.H}{this.W} {this.isActivated} 입니다");
+            Console.WriteLine($"이름 :{this.Namee} 나이: {this.O} 키: {this.H} 몸무게: {this.W} 가능여부 : {this.isActivated} 입니다");
             
         }
 

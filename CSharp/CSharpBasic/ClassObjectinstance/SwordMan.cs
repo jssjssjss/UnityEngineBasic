@@ -20,7 +20,7 @@ using System.Threading.Tasks;
 
 namespace ClassObjectInstance.UISystem.Characters
 {
-    internal class SwordMan 
+    internal class SwordMan
     {
     
     
@@ -54,6 +54,7 @@ namespace ClassObjectinstance
         // 클래스 생성자
         // 정의하지 않아도 default 생성자가 생략됨
         // 해당 클래스타입의 객체를 힙영역에 할당하고 해당 객체의 참조를 반환 **
+        
         public SwordMan()
         {
 

@@ -3,13 +3,12 @@
 
 
 
-
-
+/*
 
 using ClassObjectinstance;
 
-//new 키워드
-// 동적할당키워드
+new 키워드
+동적할당키워드
 
 
 
@@ -30,5 +29,8 @@ swordMan2.Lv = 2;
 swordMan1.Slash();
 swordMan2.Slash();
 
+*/
+
 //ClassObjectInstance.SwordMan sw1 = new ClassObjectinstance.SwordMan();
 //ClassObjectInstance.ClassObjectInstance.UISystem.Characters nw2 = new ClassObjectinstance.UISystem.Characters.SwordMan
+
