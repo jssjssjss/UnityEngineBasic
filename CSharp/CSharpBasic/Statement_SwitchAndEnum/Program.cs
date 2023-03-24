@@ -64,8 +64,8 @@ playerState = (PlayerState)0;
 
 float f1 = 0.7f;
 double d1 = 1.2;
-d1 = f1;  // double register 로 float data 를 읽으면 승격이 일어나므로 연산가능
-f1 = (float)d1; // float register 로 double data 를 읽으면 데이터 손실이 나기때문에 명시적 캐스팅 헤주어야가능
+d1 = f1;  // double register 로 float data 를 읽으면 승격이 일어나므로 연산가능                                                   ****
+f1 = (float)d1; // float register 로 double data 를 읽으면 데이터 손실이 나기때문에 명시적 캐스팅 헤주어야가능                   *******
 
 
 switch (playerState)

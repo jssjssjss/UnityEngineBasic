@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -48,8 +49,61 @@ namespace ClassObjectinstance
         //클래스는 안보이지만 private 가 생략 되있다 string _name ->  private string _name
         public string Name;
         public int Lv;
+        public int Hp { get; private set; }
+        // 위에 public int Hp 이거와 아래 public int Mp 와 같다
+        public int Mp
+        {
+
+            get 
+            {
+                return _mp;
+            }
+            private set
+            {
+                _mp = value;
+            }
+
+        }
+
+        private int _mp;
+
+        public float Exp
+        {
+            get
+            {
+                return _exp;
+            }
+
+            private set
+            {
+                if (value > _expMax)
+                    value = _expMax;
+
+                _exp = value;
+            }
+            
+        }
+
         private float _exp;
+        private float _expMax;
         private char _gender;
+
+        public void SetExp(float value)
+        {
+
+            if (value > _expMax)
+                value = _expMax;
+
+            _exp = value;
+        }
+
+        public float GetExp()
+        {
+            // 현재 exp 에 오류없는지 한번 검출하는 기능
+            return _exp;
+        }
+
+
 
         // 클래스 생성자
         // 정의하지 않아도 default 생성자가 생략됨
