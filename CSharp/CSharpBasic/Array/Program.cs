@@ -19,6 +19,29 @@ Dummy[] dummies = new Dummy[3]; // Dummy 객체를 만듯거이 아니라 Dummy 
 dummies[0] = new Dummy();
 dummies[1] = new Dummy();
 dummies[2] = new Dummy();
+
+
+int[][] intArrArr = new int[3][]; // int 타입배열을 참조하는 크기3개짜리 배열
+
+intArrArr[0] = new int[3];
+intArrArr[1] = new int[1];
+intArrArr[2] = new int[2];
+
+// string ==클래스타입 이지만 인덱스 접근 가능
+string name = "wqwq";
+Console.WriteLine(name[0]);
+Console.WriteLine(name[1]);
+Console.WriteLine(name[2]);
+Console.WriteLine(name[3]);
+
+for (int i = 0; i < name.Length; i++)
+{
+    Console.WriteLine(name[i]);
+
+    continue;
+    
+}
+
 class Dummy
 {
     int a;
