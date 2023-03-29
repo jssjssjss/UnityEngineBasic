@@ -21,12 +21,14 @@ using HorseRaicing;
 
 
 Random _random;
-double _speedMin = 10.0f;
-double _speedMax = 20.0f;
-double _posGoal = 200.0f;
+double _speedMin = 10.0;
+double _speedMax = 20.0;
+double _posGoal = 200.0;
 bool _isGameFinished = false;
-int _currentGrade = 1;
+int _currentGrade = 0;
+int _sec = 0;
 Horse[] _horsesArrived = new Horse[5];
+ 
 
 Horse[] horses = new Horse[5];
 for (int i = 0; i < horses.Length; i++)
@@ -38,7 +40,7 @@ for (int i = 0; i < horses.Length; i++)
 
 while (_isGameFinished == false)
 {
-
+    Console.WriteLine($"===================================경과====================");
     for (int i = 0; i < horses.Length; i++)
     {
         if (horses[i].IsFinished)
@@ -48,36 +50,41 @@ while (_isGameFinished == false)
             Console.WriteLine($"{horses[i]}는 도착함");
 
         }
+        else
+        {
+            _random = new Random();
+            double deltaMovePerSec = (_random.NextDouble() + 1.0) * 10.0;
+            horses[i].Move(deltaMovePerSec);
+            
 
-    
+            if (horses[i].TotalDistance >= _posGoal)
 
+            {
+                horses[i].IsFinished = true;
+                _horsesArrived[_currentGrade] = horses[i];
+                _currentGrade++;
+            }
+            Console.WriteLine($"{horses[i].Name}의 현재거리 : {horses[i].TotalDistance}");
+        }
+
+    }
+
+    if (_currentGrade >=5)
+    {
+        break; 
+
+    }
 
         
-    else
-    {
-        _random = new Random();
-        double tmpSpeed = (_random.NextDouble() + 1.0) * 10.0;
-    horses[i].Move(tmpSpeed);
-
-    if (horses[i].TotalDistance >= _posGoal)
-
-    {
-            horses[i].IsFinished = true;
-            _horsesArrived[_currentGrade] = horses[i];
-            _currentGrade++;
-
-    }
-    }
-    if (_currentGrade >= 5)
-    {
-        break;
-    }
+   
 
 
     Thread.Sleep(1000);
+    _sec++;
 }
 
-for (int i = -1; i < _horsesArrived.Length; i++)
+Console.WriteLine($"경기종료");
+for (int i = 0; i < _horsesArrived.Length; i++)
 {
     Console.WriteLine($"{i + 1}등 {_horsesArrived[i].Name}");
 }
