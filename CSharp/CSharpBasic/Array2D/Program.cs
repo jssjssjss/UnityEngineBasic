@@ -9,7 +9,7 @@ using System.Security.Cryptography;
 const int MAP_HEIGHT = 4;
 const int MAP_WIDTH = 5;
 
-
+// 
 int[,] map = new int[MAP_HEIGHT, MAP_WIDTH]
     {
 
@@ -19,6 +19,7 @@ int[,] map = new int[MAP_HEIGHT, MAP_WIDTH]
         {  1, 1, 0 ,0, 3}
 
     };
+
 int y = 0;
 int x = 0;
 int targetY = 3;
@@ -49,6 +50,7 @@ void DisplayMap()
         Console.WriteLine();
     }
     Console.WriteLine("======================================");
+     
 }
 
 void MoveRight()
@@ -168,7 +170,7 @@ void MoveDown()
     Console.WriteLine($"이동 완료, 현재 좌표 : ({x}, {y})");
     DisplayMap();
 }
-
+DisplayMap();
 
 // 게임루프
 // ?= 값을 넣을수  있다는명시?
@@ -196,5 +198,7 @@ while (true)
         Console.WriteLine("도착함");
             break;
             }
+
 }
+
 

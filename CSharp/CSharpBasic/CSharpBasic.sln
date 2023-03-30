@@ -25,7 +25,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Array 1D", "Array\Array 1D.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HorseRaicing", "HorseRaicing\HorseRaicing.csproj", "{C42308B1-C70F-4A51-9677-EB49898C6DA8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Array2D", "Array2D\Array2D.csproj", "{7667549E-2ED1-432C-B0CA-6ABBAE6C8C5A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Array2D", "Array2D\Array2D.csproj", "{7667549E-2ED1-432C-B0CA-6ABBAE6C8C5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance", "Inheritance\Inheritance.csproj", "{5C89A857-6280-4759-A9C4-120D2D75164C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{7667549E-2ED1-432C-B0CA-6ABBAE6C8C5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7667549E-2ED1-432C-B0CA-6ABBAE6C8C5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7667549E-2ED1-432C-B0CA-6ABBAE6C8C5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C89A857-6280-4759-A9C4-120D2D75164C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C89A857-6280-4759-A9C4-120D2D75164C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C89A857-6280-4759-A9C4-120D2D75164C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C89A857-6280-4759-A9C4-120D2D75164C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
