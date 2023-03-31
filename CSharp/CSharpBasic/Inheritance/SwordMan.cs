@@ -8,6 +8,12 @@ namespace Inheritance
 {
     internal class SwordMan : Character
     {
+        public SwordMan(int hp, int attackPower)
+            : base(hp, attackPower) { }
+        public override void SayHi()
+        {
+            base.SayHi();
+        }
         protected override void Breath()
         {
 

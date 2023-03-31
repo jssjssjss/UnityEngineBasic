@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 
 namespace Inheritance
 {
-    internal interface IAttackable
+    internal class Tree : Resource
     {
-        int AttackPower { get; }
 
-        void Attack(IDamageable target);
+
     }
-
 }
