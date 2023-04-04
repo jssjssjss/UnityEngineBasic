@@ -29,7 +29,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Array2D", "Array2D\Array2D.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inheritance", "Inheritance\Inheritance.csproj", "{5C89A857-6280-4759-A9C4-120D2D75164C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections", "MyDynamicArray\Collections.csproj", "{8B36B7D7-4966-4EA6-94ED-3B4C7AC4EFCB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Collections", "MyDynamicArray\Collections.csproj", "{8B36B7D7-4966-4EA6-94ED-3B4C7AC4EFCB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegate", "Delegate\Delegate.csproj", "{51BD3E9E-31C9-4AF2-BDBF-6FEA39D4F392}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{8B36B7D7-4966-4EA6-94ED-3B4C7AC4EFCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B36B7D7-4966-4EA6-94ED-3B4C7AC4EFCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8B36B7D7-4966-4EA6-94ED-3B4C7AC4EFCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51BD3E9E-31C9-4AF2-BDBF-6FEA39D4F392}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51BD3E9E-31C9-4AF2-BDBF-6FEA39D4F392}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51BD3E9E-31C9-4AF2-BDBF-6FEA39D4F392}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51BD3E9E-31C9-4AF2-BDBF-6FEA39D4F392}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
