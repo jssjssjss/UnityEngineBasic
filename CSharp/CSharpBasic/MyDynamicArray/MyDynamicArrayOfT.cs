@@ -12,7 +12,7 @@ namespace Collections
     //              " 컴파일 타입" 에 해당 타입에 대한 클래스 혹은 함수가 정의됨.
     // Generic class 의 where 제한자 : Generic 의 타입에 제한을 걸 때 사용
     // (ex, T 타입은 반드시 IComparable<T>  또는 IComparable<T>를 상속받은 타입이어야 한다.
-
+    // IEnumerator = 순회하는 인터페이스
     internal class MyDynamicArray<T> : IEnumerable<T>
         where T : IComparable<T>
     {
@@ -144,12 +144,54 @@ namespace Collections
 
         public IEnumerator<T> GetEnumerator()
         {
-            throw new NotImplementedException();
+            return new Enumerator(this);
         }
 
         IEnumerator IEnumerable.GetEnumerator()
         {
-            throw new NotImplementedException();
+            return new Enumerator(this);
+        }
+
+        public struct Enumerator : IEnumerator<T>
+        {
+            public T Current => _current;
+
+            object IEnumerator.Current => _current;
+
+            private MyDynamicArray<T> _outer;
+            private int _currentIndex;
+            private T? _current; // nullable 연산자 , null 대입 가능한것을 명시
+
+            public Enumerator(MyDynamicArray<T> outer)
+            {
+                _outer = outer;
+                _currentIndex = -1;
+                _current = default(T);
+
+            }
+
+            // 보통 관리되지 않는 힙영역의 메모리를 해제하거나
+            //.Net CLR 의 Garbage Collector 가 알아서 수거하는걸 기다리지 않고 직접 수거해가라고 명령할때
+            // DIspose : Generic IEnumerator 에만 있다.  ex) IEnumerator <T>
+            public void Dispose() 
+            {
+            }
+
+            public bool MoveNext()
+            {
+                if (_currentIndex >= _outer.Count - 1)
+                    return false;
+
+                _currentIndex++;
+                _current = _outer._data[_currentIndex];
+                return true;
+            }
+
+            public void Reset()
+            {
+                _currentIndex = -1;
+                _current = default(T);
+            }
         }
     }
 }
