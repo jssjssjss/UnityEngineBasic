@@ -1,0 +1,15 @@
+C:\Users\User\Documents\GitHub\UnityEngineBasic\CSharp\Base Ball\Base Ball\obj\Debug\net6.0\BaseBallGame.csproj.AssemblyReference.cache
+C:\Users\User\Documents\GitHub\UnityEngineBasic\CSharp\Base Ball\Base Ball\obj\Debug\net6.0\BaseBallGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\GitHub\UnityEngineBasic\CSharp\Base Ball\Base Ball\obj\Debug\net6.0\BaseBallGame.AssemblyInfoInputs.cache
+C:\Users\User\Documents\GitHub\UnityEngineBasic\CSharp\Base Ball\Base Ball\obj\Debug\net6.0\BaseBallGame.AssemblyInfo.cs
+C:\Users\User\Documents\GitHub\UnityEngineBasic\CSharp\Base Ball\Base Ball\obj\Debug\net6.0\BaseBallGame.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\GitHub\UnityEngineBasic\CSharp\Base Ball\Base Ball\bin\Debug\net6.0\BaseBallGame.exe
+C:\Users\User\Documents\GitHub\UnityEngineBasic\CSharp\Base Ball\Base Ball\bin\Debug\net6.0\BaseBallGame.deps.json
+C:\Users\User\Documents\GitHub\UnityEngineBasic\CSharp\Base Ball\Base Ball\bin\Debug\net6.0\BaseBallGame.runtimeconfig.json
+C:\Users\User\Documents\GitHub\UnityEngineBasic\CSharp\Base Ball\Base Ball\bin\Debug\net6.0\BaseBallGame.dll
+C:\Users\User\Documents\GitHub\UnityEngineBasic\CSharp\Base Ball\Base Ball\bin\Debug\net6.0\BaseBallGame.pdb
+C:\Users\User\Documents\GitHub\UnityEngineBasic\CSharp\Base Ball\Base Ball\obj\Debug\net6.0\BaseBallGame.dll
+C:\Users\User\Documents\GitHub\UnityEngineBasic\CSharp\Base Ball\Base Ball\obj\Debug\net6.0\refint\BaseBallGame.dll
+C:\Users\User\Documents\GitHub\UnityEngineBasic\CSharp\Base Ball\Base Ball\obj\Debug\net6.0\BaseBallGame.pdb
+C:\Users\User\Documents\GitHub\UnityEngineBasic\CSharp\Base Ball\Base Ball\obj\Debug\net6.0\BaseBallGame.genruntimeconfig.cache
+C:\Users\User\Documents\GitHub\UnityEngineBasic\CSharp\Base Ball\Base Ball\obj\Debug\net6.0\ref\BaseBallGame.dll
