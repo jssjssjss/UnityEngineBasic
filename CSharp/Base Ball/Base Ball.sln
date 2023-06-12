@@ -5,6 +5,10 @@ VisualStudioVersion = 17.3.32819.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaseBallGame", "Base Ball\BaseBallGame.csproj", "{28445AA2-0F74-47D3-AC5D-8D811C5714D2}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CardGame", "CardGame\CardGame.csproj", "{CED1E0AB-313A-4C4B-A6D4-FE245D7AA897}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sutda-Program", "..\..\..\SBS_unuty6_cardgame\Sutda-Program\Sutda-Program.csproj", "{50376468-63DB-4891-9067-351FBBC1E758}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{28445AA2-0F74-47D3-AC5D-8D811C5714D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28445AA2-0F74-47D3-AC5D-8D811C5714D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28445AA2-0F74-47D3-AC5D-8D811C5714D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CED1E0AB-313A-4C4B-A6D4-FE245D7AA897}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CED1E0AB-313A-4C4B-A6D4-FE245D7AA897}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CED1E0AB-313A-4C4B-A6D4-FE245D7AA897}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CED1E0AB-313A-4C4B-A6D4-FE245D7AA897}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50376468-63DB-4891-9067-351FBBC1E758}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50376468-63DB-4891-9067-351FBBC1E758}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50376468-63DB-4891-9067-351FBBC1E758}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50376468-63DB-4891-9067-351FBBC1E758}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
